@@ -64,10 +64,19 @@ width: 100%;
     -webkit-text-stroke: 1px #edc100;
     margin-left: 6px;
 }
-.logo{
+.contact{
   color: gray;
-  font-size: 18px;
-
+  font-size: 25px;
+  color: gray;
+  cursor: pointer;
+  position: relative;
+  transition: transform .4s ease;
+  border: none;
+  background-color: transparent;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  
 }
 .cart-icon{
   font-size: 25px;

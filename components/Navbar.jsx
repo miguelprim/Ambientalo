@@ -10,11 +10,11 @@ const Navbar = () => {
 
   return (
     <div className="navbar-container">
-      <p className="logo">
-        <Link href="/">TRIANA ESSENCE</Link>
-              </p>
+      
+      <a class="navbar-logo" href="/">
+      <img src="logo1.png" ></img></a>        
 
-      <p className="logo">
+      <p className="contact">
       <Link href="/contact">CONTACT</Link>
       </p>        
 
