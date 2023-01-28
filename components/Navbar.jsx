@@ -14,10 +14,17 @@ const Navbar = () => {
         <Link href="/">TRIANA ESSENCE</Link>
               </p>
 
+      <p className="logo">
+      <Link href="/contact">CONTACT</Link>
+      </p>        
+
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
         <AiOutlineShopping />
         <span className="cart-item-qty">{totalQuantities}</span>
       </button>
+
+      
+      
 
       {showCart && <Cart />}
     </div>
