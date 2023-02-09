@@ -8,7 +8,7 @@ import product from './product6L';
 
 export default createSchema({
   name: 'default',
-  types: schemaTypes.concat([ product, banner, logo. product6L ]),
+  types: schemaTypes.concat([ product, banner, logo, product6L ]),
 
     
 })
