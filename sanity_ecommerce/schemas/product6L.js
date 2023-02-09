@@ -1,6 +1,6 @@
 export default {
-  name: 'variant',
-  title: 'Variant',
+  name: 'product6L',
+  title: 'Product6L',
   type: 'document',
   fields: [
     {
