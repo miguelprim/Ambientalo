@@ -9,11 +9,13 @@ body, * {
 }
 ::-webkit-scrollbar {
   width: 0px;
+  
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  
 }
 
 .main-container{
@@ -24,14 +26,21 @@ width: 100%;
 }
 .layout{
   padding: 10px;
+  
 }
 
 .navbar-container{
   display: flex;
   justify-content: space-between;
-  margin: 6px 18px;
+  margin: -10px -10px 0px -10px;
   position: relative;
+  z-index: 1;
+  background-color: #000000;
 }
+
+
+
+
 .marquee-text{
   font-size: 29px;
   font-weight: 600;
@@ -43,6 +52,7 @@ width: 100%;
   height: 400px;
   width: 100%;
   overflow-x: hidden;
+  
 }
 
 .track {
@@ -73,12 +83,15 @@ width: 100%;
   transition: transform .4s ease;
   border: none;
   background-color: transparent;
-  margin-top: 0px;
+  margin-top: 10px;
   flex-wrap: wrap;
   justify-content: center;
   margin-right: 18px;
   margin-left: auto; 
 }
+
+
+
 .cart-icon{
   font-size: 25px;
   color: gray;
@@ -87,6 +100,8 @@ width: 100%;
   transition: transform .4s ease;
   border: none;
   background-color: transparent;
+  margin-right: 18px;
+  margin-top: 0px;
 }
 
 
