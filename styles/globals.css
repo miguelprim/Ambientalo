@@ -35,8 +35,8 @@ width: 100%;
   position: relative;
   z-index: 1;
   background-color: #000000;
+  
 }
-
 
 
 
@@ -193,6 +193,7 @@ width: 100%;
 }
 .hero-banner-image{
   position: absolute;
+  margin-right: 30px;
   top: 0%;
   right:10%;
   width: 450px;
@@ -306,8 +307,8 @@ text-align: end;
 .cart-container{
   height: 100vh;
   width: 600px;
-  background-color: white;
-  float: right;
+  background-color: rgb(243, 243, 243);
+  
   padding: 40px 10px;
   position: relative;
   
@@ -397,6 +398,7 @@ padding: 20px 10px;
 .total{
   display: flex;
   justify-content: space-between;
+  margin-right: 50px;
 }
 .total h3{
   font-size: 22px;
@@ -515,7 +517,7 @@ padding: 30px 65px;
 }
 .product-detail-desc .buttons{
   display: flex;
-  gap: 30px;
+  gap: 10px;
 }
 .buttons .add-to-cart{
   padding: 10px 20px;
