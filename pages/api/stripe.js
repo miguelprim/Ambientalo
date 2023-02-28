@@ -11,11 +11,11 @@ export default async function handler(req, res) {
         payment_method_types: ['card'],
         
         shipping_options: [
-          { shipping_rate: 'shr_1MPVrNKZZGjzV8PH4IkVFNIw' },
+          { shipping_rate: 'shr_1MgYd6KZZGjzV8PHZHOaB1Al' },
         ],
         billing_address_collection: 'required',
         shipping_address_collection: {
-          allowed_countries: ['ES', 'DE','IT','PT','FR','GB','IE','CH','AT','NO','SE'],
+          allowed_countries: ['ES', 'DE','PT','FR','GB'],
         },
 
         line_items: req.body.map((item) => {
