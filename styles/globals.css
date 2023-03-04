@@ -200,17 +200,18 @@ width: 100%;
   background-color: #edc100;
   color: white;
   border: none;
-  margin-top: 40px;
+  margin-top: 100px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-  z-index:10000 !important;
+  z-index:20000;
 }
 
 .hero-banner-container h3{
   font-size: 4rem;
   margin-top: 4px;
   margin-left: 0px;
+  
 }
 .hero-banner-container h1{
   color: white;
@@ -221,11 +222,8 @@ width: 100%;
 .hero-banner-image{
   position: absolute;
   margin-right:30px;
-  margin-top:150px;
-  top: 0%;
-  right:10%;
-  width: 250px;
-  height: 250px;
+  margin-top:90px;
+  z-index:0; 
 }
 
 
