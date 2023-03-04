@@ -107,18 +107,11 @@ width: 100%;
 }
 
 .termstext{
+  font-size: 11px;
   color: rgb(0, 0, 0);
-  font-size: 15px;
-  color: rgb(0, 0, 0);
-  cursor: pointer;
-  position: relative;
-  transition: transform .4s ease;
-  border: none;
-  background-color: transparent;
-  margin-top: 11px;
-  flex-wrap: wrap;
-  margin-right: 28px;
-  margin-left: 20px; 
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px
 }
 
 

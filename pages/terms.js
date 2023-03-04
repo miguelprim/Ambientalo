@@ -1,20 +1,12 @@
 import Link from 'next/link';
-import { BsAlignStart, BsBagCheckFill, BsChatQuote, BsDash, BsNewspaper, BsPalette, BsPaperclip, BsPencil, BsPhone, BsQuestion, BsReception0, BsReception1, BsRecord, BsSafe } from 'react-icons/bs';
+import { BsBagCheckFill, BsPhone } from 'react-icons/bs';
 
-
-import { useStateContext } from '../context/StateContext';
-import { TiChevronLeftOutline } from 'react-icons/ti';
 
 
 const Success = () => {
-  const { setCartItems, setTotalPrice, setTotalQuantities } = useStateContext();
-  
- 
-
   return (
-    <div className='termstext'>
-      <div>
-
+    <div className="termstext">
+     
       <br></br><br></br> 
 
         <h2>Privacy Policy / Terms & Conditions / Cookies policy</h2>
@@ -294,7 +286,7 @@ Este documento de Política de Cookies ha sido creado mediante el generador de p
         
         
       </div>
-    </div>
+    
   )
 }
 export default Success
