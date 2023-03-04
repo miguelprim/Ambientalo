@@ -16,7 +16,11 @@ const Navbar = () => {
 
       <p className="contact">
       <Link href="/contact">CONTACT</Link>
-      </p>        
+      </p>    
+
+      <p className="terms">
+      <Link href="/terms">TERMS</Link>
+      </p>     
 
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
         <AiOutlineShopping />

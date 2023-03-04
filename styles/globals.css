@@ -82,13 +82,27 @@ width: 100%;
   transition: transform .4s ease;
   border: none;
   background-color: transparent;
-  margin-top: 10px;
+  margin-top: 11px;
   flex-wrap: wrap;
   justify-content: center;
   margin-right: 18px;
   margin-left: auto; 
 }
 
+.terms{
+  color: gray;
+  font-size: 25px;
+  color: gray;
+  cursor: pointer;
+  position: relative;
+  transition: transform .4s ease;
+  border: none;
+  background-color: transparent;
+  margin-top: 11px;
+  flex-wrap: wrap;
+  margin-right: 28px;
+  margin-left: 300; 
+}
 
 
 .cart-icon{
@@ -167,9 +181,10 @@ width: 100%;
 }
 .hero-banner-container .beats-solo{
   font-size: 20px;
+  margin-left: 0px;
 }
 .hero-banner-container button{
-   border-radius: 15px;
+  border-radius: 15px;
   padding: 10px 16px;
   background-color: #edc100;
   color: white;
@@ -184,11 +199,12 @@ width: 100%;
 .hero-banner-container h3{
   font-size: 4rem;
   margin-top: 4px;
+  margin-left: 0px;
 }
 .hero-banner-container h1{
   color: white;
   font-size: 10em;
-  margin-left: 0px;
+  margin-left: -4px;
   text-transform: uppercase;
 }
 .hero-banner-image{
@@ -237,6 +253,7 @@ text-align: end;
 .products-heading p{
   font-size: 16px;
   font-weight: 200;
+  
 }
 .footer-banner-container{
   padding: 100px 40px;
@@ -248,6 +265,7 @@ text-align: end;
   color: white;
   width: 100%;
   margin-top: 120px;
+  margin-left: 0px;
 }
 .banner-desc{
   display: flex ;
@@ -267,10 +285,10 @@ text-align: end;
 .banner-desc .left h3{
   font-weight: 900;
   font-size: 80px;
-  margin-left: 18px;
+  margin-left: 0px;
 }
 .banner-desc .left p{
-  margin:18px;
+  margin-left: 0px;
 }
 .footer-banner-image{
   position: absolute;
@@ -285,9 +303,10 @@ text-align: end;
 .banner-desc .right h3{
   font-weight: 800;
   font-size: 60px;
+  margin-left: 0px;
 }
 .banner-desc .right p{
-  font-size: 18px;
+  margin-left: 0px;
 }
 .banner-desc .right .company-desc{
   font-size: 14px;
@@ -670,10 +689,10 @@ margin-top: 160px;
   .banner-desc .left h3{
     font-weight: 900;
     font-size: 50px;
-    margin-left: 5px;
+    margin-left: 0px;
   }
   .banner-desc .left p{
-    margin:18px;
+    margin: 0px;
   }
   .banner-desc .right h3{
     font-size: 45px;
@@ -696,6 +715,7 @@ margin-top: 160px;
   }
  .hero-banner-container h3{
     font-size: 40px;
+    margin-left: 0px;
   }
   .hero-banner-container button{
     margin-top: 90px;

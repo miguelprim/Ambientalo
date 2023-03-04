@@ -1,24 +1,10 @@
-import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { BsBagCheckFill, BsPhone } from 'react-icons/bs';
 
 
-import { useStateContext } from '../context/StateContext';
-import { TiChevronLeftOutline } from 'react-icons/ti';
-
 
 const Success = () => {
-  const { setCartItems, setTotalPrice, setTotalQuantities } = useStateContext();
-  
-  useEffect(() => {
-    localStorage.clear();
-    setCartItems([]);
-    setTotalPrice(0);
-    setTotalQuantities(0);
-   
-  }, []);
-
-  return (
+    return (
     <div className="success-wrapper">
       <div className="success">
         <p className="icon">
