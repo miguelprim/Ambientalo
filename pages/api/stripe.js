@@ -27,7 +27,7 @@ export default async function handler(req, res) {
               currency: 'eur',
               product_data: { 
                 name: item.name,
-                images: [newImage],
+                images: [],
               },
               unit_amount: item.price * 100,
             },
