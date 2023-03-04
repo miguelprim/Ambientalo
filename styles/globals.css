@@ -32,9 +32,11 @@ width: 100%;
 .navbar-container{
   display: flex;
   justify-content: space-between;
-  position: relative;
   z-index: 1;
   background-color: #000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
   
 }
 
