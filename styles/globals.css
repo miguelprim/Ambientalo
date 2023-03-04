@@ -107,11 +107,12 @@ width: 100%;
 }
 
 .termstext{
-  font-size: 11px;
+  font-size: 10px;
   color: rgb(0, 0, 0);
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 20px
+  margin-top: 70px;
+  margin-right: 5px;
+  margin-left: 5px;
+  
 }
 
 
@@ -219,11 +220,12 @@ width: 100%;
 }
 .hero-banner-image{
   position: absolute;
-  margin-right: 30px;
+  margin-right:30px;
+  margin-top:150px;
   top: 0%;
   right:10%;
-  width: 450px;
-  height: 450px;
+  width: 250px;
+  height: 250px;
 }
 
 
