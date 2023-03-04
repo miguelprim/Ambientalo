@@ -7,7 +7,7 @@ const Home = ({ products, bannerData }) => (
   <div>
     <HeroBanner heroBanner={bannerData.length && bannerData[0]}  />
     <div className="products-heading">
-      <h2>Best air fresheners of sevilla</h2>
+      <h2>Ambientadores de alta calidad</h2>
       <p>Ambientadores basados en la alta perfumería, compuesto por alcohol de melazas y esencias naturales aromáticas. Calidad máxima, perfuma, desodoriza y purifica el ambiente.</p>
     </div>
 
