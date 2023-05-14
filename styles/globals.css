@@ -761,8 +761,21 @@ margin-top: 160px;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+
     
   }
+
+  .navbar-container{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+  }
+  
   .desc{
     position: absolute;
     right: 10%;
