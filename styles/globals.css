@@ -224,6 +224,7 @@ width: 100%;
   font-size: 4em;
   margin-left: -4px;
   text-transform: uppercase;
+  bottom: 5%;
 }
 .hero-banner-image{
   margin-top: -250px;
@@ -489,8 +490,8 @@ padding: 30px 65px;
 
 .product-detail-image{
   border-radius: 15px;
-   background-color: #ebebeb;
-
+  background-color: #ebebeb;
+  margin-top: 50px;
   width: 400px;
   height: 400px;
   cursor: pointer;
