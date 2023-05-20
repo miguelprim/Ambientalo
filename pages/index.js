@@ -10,10 +10,21 @@ const Home = ({ products, bannerData }) => (
       <h2>Ambientadores de alta calidad</h2>
       <p>Ambientadores basados en la alta perfumería, compuesto por alcohol de melazas y esencias naturales aromáticas. Calidad máxima, perfuma, desodoriza y purifica el ambiente.</p>
     </div>
+    
 
     <div className="products-container">
       {products?.map((product) => <Product key={product._id} product={product} />)}
+       
     </div>
+
+    <div className="Team">
+      <h2>Nosotros</h2>
+      <p>Somos un equipo familiar con más de 20 años asesorando clientes y particulares en Sevilla y Andalucía. Para nosotros es importante compartir la mejor experiencia en fragancias, ambientadores y perfumes que vaya más acorde a su negocio</p>
+      <img src="/team.png" alt=""></img>
+    </div>
+
+     
+    
 
     <FooterBanner footerBanner={bannerData && bannerData[0]} />
   </div>

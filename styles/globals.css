@@ -258,10 +258,11 @@ text-align: end;
   /* color: black; */
   align-self: flex-end;
 }
+
 .products-heading{
   text-align: center;
-  margin: 40px 0px;
- color: #324d67;
+  margin: 50px 0px;
+  color: #324d67;
 
 }
 .products-heading h2{
@@ -275,6 +276,26 @@ text-align: end;
   font-weight: 200;
   
 }
+
+
+.Team{
+  text-align: center;
+  margin: 40px 0px;
+ color: #324d67;
+
+}
+.Team h2{
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 75px;
+  z-index: 10000;
+}
+.Team p{
+  font-size: 16px;
+  font-weight: 200;
+}
+
+
 .footer-banner-container{
   padding: 100px 40px;
   background-color: #edc100;
@@ -776,6 +797,7 @@ margin-top: 160px;
     position: fixed;
     top: 0;
     width: 100%;
+    
     
   }
   
