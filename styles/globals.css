@@ -571,7 +571,21 @@ padding: 30px 65px;
   font-size: 26px;
   margin-top: 30px;
   color:#edc100;
+  
+
+  
 }
+
+.product-detail-desc .originalprice{
+  font-weight: 700 ;
+  font-size: 26px;
+  margin-top: 30px;
+  color: gray;
+  text-decoration: line-through;
+  
+}
+
+
 .price .old-price, .product-price .old-price, .price .old-price{
   color: gray;
   text-decoration: line-through;

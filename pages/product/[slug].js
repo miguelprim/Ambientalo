@@ -6,7 +6,7 @@ import { Product } from '../../components';
 import { useStateContext } from '../../context/StateContext';
 
 const ProductDetails = ({ product, products }) => {
-  const { image, name, details, price } = product;  
+  const { image, name, details, price, originalprice } = product;  
   const [index, setIndex] = useState(0);
   const { decQty, incQty, qty, onAdd, setShowCart } = useStateContext();
 
@@ -55,6 +55,7 @@ const ProductDetails = ({ product, products }) => {
           <h4>Details: </h4>
           <p>{details}</p>
           <p className="price">{price}€ (IVA incl.)</p>
+          <p className="originalprice">{originalprice}€ (IVA incl.)</p>
           <div className="quantity">
             <h3>Quantity:</h3>
             <p className="quantity-desc">
