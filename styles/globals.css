@@ -183,7 +183,12 @@ width: 100%;
   margin-top: 6px;
   color: black;
 }
-
+.product-original price{
+  font-weight: 600;
+  margin-top: 6px;
+  text-decoration:line-through;
+  color: rgba(118, 118, 118, 0.388);
+}
 .hero-banner-container{
   padding: 100px 20px 0px 10px;
   background-color: #dcdcdc;
