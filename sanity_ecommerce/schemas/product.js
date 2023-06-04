@@ -19,7 +19,7 @@ export default {
     },
     { 
       name: 'slug',
-      title: 'Slug',
+      title: 'Slugsi',
       type: 'slug',
       options: {
         source: 'name',
