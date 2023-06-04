@@ -11,7 +11,6 @@ const FooterBanner = ({ footerBanner: { discount, largeText1, largeText2, saleTi
           <p>{discount}</p>
           <h3>{largeText1}</h3>
           <h3>{largeText2}</h3>
-          <h3>{largeText3}</h3>
           <p>{saleTime}</p>
         </div>
         <div className="right">
