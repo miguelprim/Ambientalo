@@ -16,7 +16,7 @@ const Product = ({ product: { image, name, slug, price, originalprice } }) => {
           />
           <p className="product-name">{name}</p>
           <p className="product-price">{price}€ (IVA incl.)</p>
-          <p className="product-originalprice">{originalprice}€ (IVA incl.)</p>
+          <p className="product-originalprice">{originalprice}26€ (IVA incl.)</p>
         </div>
       </Link>
     </div>
