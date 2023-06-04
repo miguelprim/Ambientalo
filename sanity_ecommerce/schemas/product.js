@@ -27,8 +27,13 @@ export default {
       }
     },
     { 
-      name: 'price',
-      title: 'Price',
+      name: 'discount price',
+      title: 'discount Price',
+      type: 'number',
+    },
+    { 
+      name: 'original price',
+      title: 'original Price',
       type: 'number',
     },
     { 
