@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Head>
-        <title>TRIANA ESSENCE</title>
+        <title>TRIANA ESSENCE Ambientadores y Fragancias</title>
       </Head>
       <header>
         <Navbar />
