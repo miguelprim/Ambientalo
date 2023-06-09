@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Head>
-        <title>TRIANA ESSENCE Ambientadores, Perfumes, Fragancias, Aromas. Sevilla</title>
+        <title>Ambientadores de Perfumes, Fragancias, Aromas. Baratos y buena calidad. TRIANA ESSENCE Sevilla</title>
       </Head>
       <header>
         <Navbar />
