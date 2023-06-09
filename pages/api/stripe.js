@@ -15,7 +15,7 @@ export default async function handler(req, res) {
         ],
         billing_address_collection: 'required',
         shipping_address_collection: {
-          allowed_countries: ['ES', 'DE','PT','FR','GB'],
+          allowed_countries: ['ES', '','','',''],
         },
 
         line_items: req.body.map((item) => {
