@@ -20,7 +20,7 @@ const Home = ({ products, bannerData }) => (
     <div className="Team">
       <h2>Nosotros</h2>
       <p>Somos un equipo familiar con más de 20 años asesorando clientes y particulares en Sevilla y Andalucía. Para nosotros es importante compartir la mejor experiencia en fragancias, ambientadores y perfumes que vaya más acorde a su negocio</p>
-      <img src="/team.png" alt=""></img>
+      <img src="/ambientalo3.png" alt=""></img>
     </div>
 
      
