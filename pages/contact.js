@@ -17,8 +17,8 @@ const Success = () => {
         <p className="email-msg">For calls in english language</p>
         <p className="description">
           If you have any questions, please email
-          <a className="email" href="mailto:triana.essence@gmail.com">
-          triana.essence@gmail.com
+          <a className="email" href="mailto:pilar@ambientalo.com">
+          pilar@ambientalo.com
           </a>
         </p>
         <Link href="/">
