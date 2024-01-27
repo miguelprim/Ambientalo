@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="navbar-container">
       
       <Link class="navbar-logo" href="/">
-      <img src="/logo/ambientalo3.png" ></img></Link>        
+      <img src="/logo/alo_logo.png" ></img></Link>        
 
       <p className="contact">
       <Link href="/contact">CONTACT</Link>
